@@ -1,0 +1,23 @@
+# Robots.txt for AB TechSol (https://abtechsol.com)
+# Allow all search engines and crawlers to index the website
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /enquiry-tracker
+
+User-agent: Googlebot
+Allow: /
+Disallow: /admin
+Disallow: /enquiry-tracker
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+Disallow: /admin
+
+# Host and Sitemap locations
+Host: https://abtechsol.com
+Sitemap: https://abtechsol.com/sitemap.xml

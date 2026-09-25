@@ -1,0 +1,8 @@
+{
+  "name": "AB TechSol",
+  "description": "AB TechSol builds modern websites, applications, custom software, and AI-powered solutions that help businesses operate smarter and grow faster.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

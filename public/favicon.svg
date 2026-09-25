@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="favBadgeBg" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F1F38"/>
+      <stop offset="50%" stop-color="#081324"/>
+      <stop offset="100%" stop-color="#040914"/>
+    </linearGradient>
+    <linearGradient id="favBadgeBorder" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#0A84FF" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0052CC" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="abFavLogoGrad" x1="140" y1="58" x2="272" y2="168" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="25%" stop-color="#00C8F8"/>
+      <stop offset="60%" stop-color="#0A84FF"/>
+      <stop offset="100%" stop-color="#0052CC"/>
+    </linearGradient>
+    <linearGradient id="abFavLeftLegGrad" x1="28" y1="168" x2="120" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="40%" stop-color="#0A84FF"/>
+      <stop offset="85%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#80F2FF"/>
+    </linearGradient>
+    <linearGradient id="abFavRightFacetGrad" x1="120" y1="36" x2="168" y2="168" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0A84FF"/>
+      <stop offset="40%" stop-color="#0052CC"/>
+      <stop offset="100%" stop-color="#003599"/>
+    </linearGradient>
+    <linearGradient id="abFavMtnLeft" x1="88" y1="168" x2="105" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00B4D8"/>
+      <stop offset="100%" stop-color="#00F5FF"/>
+    </linearGradient>
+    <linearGradient id="abFavMtnRight" x1="105" y1="128" x2="122" y2="168" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0066E0"/>
+      <stop offset="100%" stop-color="#0044B8"/>
+    </linearGradient>
+    <linearGradient id="abFavSheen" x1="30" y1="160" x2="120" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="70%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- High-tech Squircle Container -->
+  <rect x="6" y="6" width="188" height="188" rx="42" fill="url(#favBadgeBg)"/>
+  <rect x="6" y="6" width="188" height="188" rx="42" stroke="url(#favBadgeBorder)" stroke-width="2.5"/>
+
+  <!-- Centered Exact Interlocking Slanted AB Monogram -->
+  <g transform="translate(100, 100) scale(0.64) translate(-150, -102)">
+    <!-- Letter 'A': Left Leg & Summit -->
+    <path fill="url(#abFavLeftLegGrad)" d="
+      M 28,168
+      L 120,36
+      L 140,168
+      L 111,98
+      L 64,168
+      Z
+    "/>
+
+    <!-- Letter 'A': Right 3D Chiseled Facet -->
+    <path fill="url(#abFavRightFacetGrad)" d="
+      M 120,36
+      L 168,168
+      L 140,168
+      Z
+    "/>
+
+    <!-- Letter 'A': Inner Mountain / Arrowhead -->
+    <path fill="url(#abFavMtnLeft)" d="
+      M 88,168
+      L 105,128
+      L 105,168
+      Z
+    "/>
+    <path fill="url(#abFavMtnRight)" d="
+      M 105,128
+      L 122,168
+      L 105,168
+      Z
+    "/>
+
+    <!-- Letter 'B': Continuous Stylized Ribbon with Open Slots and Diagonal Slice -->
+    <path fill="url(#abFavLogoGrad)" d="
+      M 142,58
+      L 218,58
+      C 242,58 256,70 256,88
+      C 256,98 248,106 238,112
+      C 254,118 272,128 272,146
+      C 272,162 252,168 226,168
+      L 182,168
+      L 173,144
+      L 222,144
+      A 11 11 0 0 0 222,122
+      L 165,122
+      L 159,104
+      L 216,104
+      A 10 10 0 0 0 216,84
+      L 151,84
+      Z
+    "/>
+
+    <!-- Sheen Accents -->
+    <path d="M 32,164 L 118,38" stroke="url(#abFavSheen)" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 144,60 L 216,60 C 236,60 248,70 252,82" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  </g>
+</svg>
