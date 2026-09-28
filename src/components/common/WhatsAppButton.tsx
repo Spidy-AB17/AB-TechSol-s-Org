@@ -2,7 +2,7 @@ import React from 'react';
 import { MessageSquare } from 'lucide-react';
 
 export const WhatsAppButton: React.FC = () => {
-  const message = encodeURIComponent("Hello AB TechSol, I'd like to discuss a project.");
+  const message = encodeURIComponent("Hello AB Tech Sol, I'd like to discuss a project.");
   const whatsappUrl = `https://wa.me/918861375377?text=${message}`;
 
   return (
